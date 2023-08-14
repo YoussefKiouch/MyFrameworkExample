@@ -8,6 +8,20 @@
     <artifactId>Framework</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>artifactory-releases</name>
+            <url>http://34.16.184.43:8081/artifactory/my-repo</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>artifactory-snapshots</name>
+            <url>http://34.16.184.43:8081/artifactory/my-repo</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
