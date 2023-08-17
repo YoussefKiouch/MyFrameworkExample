@@ -12,15 +12,14 @@
         <repository>
             <id>central</id>
             <name>artifactory-releases</name>
-            <url>http://34.16.184.43:8081/artifactory/my-repo</url>
+            <url>http://34.16.184.43:8081/artifactory/repo-vir</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>artifactory-snapshots</name>
-            <url>http://34.16.184.43:8081/artifactory/my-repo</url>
+            <url>http://34.16.184.43:8081/artifactory/repo-vir</url>
         </snapshotRepository>
     </distributionManagement>
-
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
